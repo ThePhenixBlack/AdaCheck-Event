@@ -7,4 +7,5 @@ export interface Print {
   address_city: string;
   price_type: string;
   audience: string;
+  isFavorite: boolean;
 }

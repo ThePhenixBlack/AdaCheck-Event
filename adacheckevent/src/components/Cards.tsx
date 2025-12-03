@@ -22,7 +22,7 @@ function FavoriteIcon({ isFavorite, onToggle }: FavoriteIconProps) {
 }
 
 export default function Cards() {
-  const [start, setStart] = useState(0);
+  const [start] = useState(0);
   const [end, setEnd] = useState(3);
   const [prints, setPrints] = useState<Print[]>([]);
   const [query, setQuery] = useState<string>("");
